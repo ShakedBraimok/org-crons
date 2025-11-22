@@ -1,0 +1,21 @@
+# Terraform variables
+
+environment = "dev"
+project_name = "crons"
+aws_region = "us-east-1"
+rules_path = "../rules.json"
+event_bus_name = "default"
+enable_dlq = true
+dlq_retention_seconds = 1209600
+enable_encryption = true
+kms_deletion_window = 30
+enable_logging = true
+log_retention_days = 30
+enable_monitoring = true
+alarm_evaluation_periods = 2
+alarm_period = 300
+failed_invocations_threshold = 5
+alarm_actions = null
+create_sns_topic = false
+alert_email = ""
+tags = null
